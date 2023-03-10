@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: pet-battle-api-i6o3
+  namespace: ckavili1-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:4c56ed014e7688b7d74ed94ce62ec9682dde8f2822ac707ebbe66e5b832a35f4
+        name: my-java-quarkus
+        resources: {}
+status: {}
