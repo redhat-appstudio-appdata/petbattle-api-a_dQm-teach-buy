@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pet-battle-api-i6o3
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:a_dQm-pet-battle-api-i6o3
+      - image: quay.io/redhat-appstudio/user-workload@sha256:4c56ed014e7688b7d74ed94ce62ec9682dde8f2822ac707ebbe66e5b832a35f4
         name: my-java-quarkus
         ports:
         - containerPort: 8081
